@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <vnp-version>${project.version}-unofficial</vnp-version>
-        <bukkit.version>1.12</bukkit.version>
+        <bukkit.version>1.13</bukkit.version>
     </properties>
 
     <profiles>
@@ -83,8 +83,8 @@
     <dependencies>
         <dependency>
             <groupId>org.bukkit</groupId>
-            <artifactId>spigot-112</artifactId>
-            <version>1.12</version>
+            <artifactId>spigot-113</artifactId>
+            <version>1.13</version>
             <type>jar</type>
             <scope>provided</scope>
         </dependency>
