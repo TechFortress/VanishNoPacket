@@ -1,4 +1,5 @@
 name: VanishNoPacket
+api-version: 1.13
 main: org.kitteh.vanish.VanishPlugin
 version: '${vnp-version}'
 website: http://kitteh.org
