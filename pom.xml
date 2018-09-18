@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <vnp-version>${project.version}-unofficial</vnp-version>
-        <bukkit.version>1.13</bukkit.version>
+        <bukkit.version>1.13.1</bukkit.version>
     </properties>
 
     <profiles>
@@ -79,8 +79,8 @@
     <dependencies>
         <dependency>
             <groupId>org.bukkit</groupId>
-            <artifactId>spigot-113</artifactId>
-            <version>1.13</version>
+            <artifactId>spigot-1131</artifactId>
+            <version>1.13.1</version>
             <type>jar</type>
             <scope>provided</scope>
         </dependency>
@@ -88,7 +88,7 @@
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib-API</artifactId>
-            <version>4.3.0</version>
+            <version>4.4.0</version>
         </dependency>
         <dependency>
             <groupId>org.getspout</groupId>
@@ -184,7 +184,7 @@
         <dependency>
             <groupId>net.milkbowl.vault</groupId>
             <artifactId>VaultAPI</artifactId>
-            <version>1.6</version>
+            <version>1.7</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
